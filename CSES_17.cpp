@@ -19,6 +19,7 @@ void putNext(int r){
             column[c]=leftDiagonal[r-c+N-1]=rightDiagonal[r+c]=false;
         }
     }
+    return;
 }
 
 
